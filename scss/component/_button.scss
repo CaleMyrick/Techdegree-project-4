@@ -2,7 +2,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $button-colors;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -18,7 +18,7 @@
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $col1-info-bg-colors;
 }
 
 .success {
@@ -26,5 +26,5 @@
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $col2-warning-bg-colors;
 }

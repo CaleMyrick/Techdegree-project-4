@@ -1,15 +1,27 @@
+.container {
+  padding: 0 10px;
+}
+
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: $col1-info-bg-colors;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: $col2-warning-bg-colors;
 }
 
 .theme.col-3 {
@@ -51,22 +63,6 @@
 .theme.col-12 {
   background-color: #80e8d1;
 }
-
-.container {
-  padding: 0 10px;
-}
-
-
-
-[class^=col] {
-  margin-top: 10px;
-  flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-
 
 .card {
   flex-basis: 100%;
